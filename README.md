@@ -2,7 +2,7 @@ This is source code for online course https://www.youtube.com/watch?v=MZbwu3-uz3
  - use bun as build tool
  - next.js strandard project
  - shadcn-ui
->> video ends 57:11
+>> video ends 1:31:50
 
 ## Create project
 
@@ -10,6 +10,17 @@ This is source code for online course https://www.youtube.com/watch?v=MZbwu3-uz3
 bun create next-app@latest nextjs-16-tutorial-yt --yes
 bunx --bun shadcn@latest init
 bunx --bun shadcn@latest add button
+```
+
+### Add card
+```bash
+bunx --bun shadcn@latest add card
+bunx --bun shadcn@latest add field
+bunx --bun shadcn@latest add input
+bunx --bun shadcn@latest add separator 
+bun install react-hook-form
+bun install zod
+bun install @hookform/resolvers
 ```
 
 ## Getting Started
