@@ -1,11 +1,15 @@
 This is source code for online course https://www.youtube.com/watch?v=MZbwu3-uz3Y
  - use bun as build tool
  - next.js strandard project
+ - shadcn-ui
+>> video ends 57:11
 
 ## Create project
 
 ```bash
 bun create next-app@latest nextjs-16-tutorial-yt --yes
+bunx --bun shadcn@latest init
+bunx --bun shadcn@latest add button
 ```
 
 ## Getting Started
