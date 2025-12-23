@@ -4,9 +4,11 @@ This is source code for online course https://www.youtube.com/watch?v=MZbwu3-uz3
  - shadcn-ui
 
 ## Video Sections
- - chap
+ - chapter/1-royter ends 35:21
+ - chapter/2-navbar ends 57:11
  - chapter/3-sign-up ends 1:31:50
  - chapter/4-convex-quickstart ends 1:58:43
+
 ## Create project
 
 ```bash
