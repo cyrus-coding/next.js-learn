@@ -2,8 +2,11 @@ This is source code for online course https://www.youtube.com/watch?v=MZbwu3-uz3
  - use bun as build tool
  - next.js strandard project
  - shadcn-ui
->> video ends 1:31:50
 
+## Video Sections
+ - chap
+ - chapter/3-sign-up ends 1:31:50
+ - chapter/4-convex-quickstart ends 1:58:43
 ## Create project
 
 ```bash
@@ -22,6 +25,16 @@ bun install react-hook-form
 bun install zod
 bun install @hookform/resolvers
 ```
+
+### Baas(convex)
+```bash
+bun install convex
+bunx convex dev
+bunx convex import --table tasks sampleData.jsonl
+# after finish @convex/tasks.ts
+bunx convex dev 
+```
+>> https://docs.convex.dev/quickstart/nextjs
 
 ## Getting Started
 
