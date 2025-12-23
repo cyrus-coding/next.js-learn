@@ -6,7 +6,7 @@ This is source code for online course https://www.youtube.com/watch?v=MZbwu3-uz3
 ## Video Sections
  - chap
  - chapter/3-sign-up ends 1:31:50
- - chapter/4-convex-quick ends 1:58:43
+ - chapter/4-convex-quickstart ends 1:58:43
 ## Create project
 
 ```bash
