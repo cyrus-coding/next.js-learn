@@ -8,6 +8,7 @@ This is source code for online course https://www.youtube.com/watch?v=MZbwu3-uz3
  - chapter/2-navbar ends 57:11
  - chapter/3-sign-up ends 1:31:50
  - chapter/4-convex-quickstart ends 1:58:43
+ - chapter/5-convex-auth ends 2:36:16
 
 ## Create project
 
@@ -37,6 +38,19 @@ bunx convex import --table tasks sampleData.jsonl
 bunx convex dev 
 ```
 >> https://docs.convex.dev/quickstart/nextjs
+
+## Conven Better Auth
+
+```bash
+bunx convex dev
+bun add convex@latest @convex-dev/better-auth
+bun add better-auth@1.4.9 --exact
+bunx convex env set BETTER_AUTH_SECRET=$(openssl rand -base64 32)
+bunx convex env set SITE_URL http://localhost:3000
+bunx --bun shadcn@latest add sonner
+```
+
+>> https://labs.convex.dev/better-auth
 
 ## Getting Started
 
